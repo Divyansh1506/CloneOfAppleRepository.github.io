@@ -1,0 +1,854 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    font-family: ""SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif"
+}
+
+/********************/
+
+
+
+/*** Z-INDEX HIGH***/
+
+.ind-h{
+    z-index: 999;
+}
+
+/*** WHITE COLOUR ***/
+
+.w{
+    color: #fff;
+}
+
+/*** BLACK COLOUR ***/
+
+.b{
+    color: black;
+}
+/*** TEXT CENTER ***/
+
+.m-txt{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    padding: 5px;
+}
+
+/*** HEADING 1 ***/
+
+.m-txt h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+/*** PARAGRAPH ***/
+.m-txt p{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    padding-bottom: 12px;
+}
+
+/*** ANCHOR TAG ***/
+.m-txt a{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997FF;
+    font-weight: 600;
+}
+
+/*** HOVER ***/
+.m-txt a:hover,.f-txt a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*******NAV*******/
+
+nav{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #323232;
+    font-size: 14px; 
+    color: #fff;
+    position: fixed;
+    z-index: 99999;
+}
+nav a,nav i{
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+nav a:hover,nav i:hover{
+    opacity: 1;
+}
+
+
+/*******HOME*******/
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+
+#home img{
+    position: absolute;
+    height: 80%;    
+    left: 25%;
+}
+
+
+
+
+
+/********First********/
+
+#first{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    padding-top: 50px;
+    position: relative;
+}
+
+#f-t{
+    text-align: center;
+    left: 40%;    
+}
+
+#first img{
+    height: 80%;
+    position: absolute;
+    mix-blend-mode: screen;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-40%);
+
+}
+
+
+
+/********SECOND********/
+
+#second{
+    width: 100%;
+    height: 80vh;
+    background-color:#FBFBFD;
+    position: relative;
+    padding-top: 40px;
+}
+
+#second img{
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/******THIRD******/
+#third{
+    width: 100%;
+    height: 75vh;
+    background-color:#010023;
+    position: relative;
+    padding-top: 40px;
+}
+
+#third video{
+    height: 80%;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.tp{
+    top: 55%;
+    left:36%;
+}
+
+
+/*******Fourth*********/
+#fourth {
+    display: flex;
+    flex-wrap: wrap
+
+}
+.parts{
+    height: 75vh;
+    width: 47%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.bb{
+    background-color: #F5F5F7;
+    text-align: center;
+}
+.parts .iimmgg{
+    height: 100%;
+    width: 100%;
+}
+.m-txtt{
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+}
+.m-txtt p img{
+    margin: -12px;
+    padding-left: 15px;
+}
+
+.flex-head{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.aa,.cc{
+    background-color: #000000;
+}
+.bb,.dd{
+    background-color:#F5F5F7 ;
+}
+.f-txt img{
+    position: absolute;
+    margin-top: -38px;
+    right: 28px;
+} 
+
+.f-txt{
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+}
+.f-txt h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 5px;
+}
+.f-txt p{
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.f-txt a{
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997FF;
+    font-weight: 500;
+    text-align: center;
+
+}
+#gradient{
+    background: -webkit-linear-gradient(#eee, #333);
+}
+
+.aa{
+    background-image: url(img/air.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bb{
+    background-image: url(img/ipad\ pro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cc{
+    background-image:url(img/tv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dd{
+    background-image: url(img/mac.png);
+    background-size: cover;
+    background-position: center;
+}
+/* 
+#index1{
+    display: none;
+} */
+
+#index2{
+    display: none;
+    width: 100%;
+    padding-top: 50px;
+}
+#index3{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************MACBOOK*******************/
+
+
+
+.mac{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mac-btn{
+    padding: 5px 10px;
+    background-color: #2997FF;
+    font-size: 15px;
+    border-radius: 25px;
+    border-style: none;
+    margin: 10px 20px;
+}
+
+.mac h6{
+    color: #f56300;
+    font-size: 25px;
+}
+
+.mac h1{
+    font-size: 50px;
+}
+
+.mac h3{
+    font-size: 25px;
+}
+.mac p{
+    font-size: 18px;
+    margin-top:  15px;
+}
+
+button{
+    color: #fff;
+    background-color: #0071e3;
+    font-size: 18px;
+    padding: 6px 15px;
+}
+.btn-area a{
+    color: #0071e3;
+    font-size: 18px;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+.btn-area a:hover{
+    text-decoration: underline;
+}
+
+.mac img{
+    margin-top: 50px;
+}
+
+/****/
+
+
+#mac-first{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color:#FEFFFF;
+}
+
+#mac-second{
+    width: 100%;
+    padding-top: 100px;
+    background-color: #010101;
+}
+
+#mac-third{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mac-third h1{
+    font-size: 50px;
+}
+
+
+/*************/
+
+
+.text-align{
+    text-align: center;
+}
+
+#mac-big-data{
+    display: flex;
+    gap: 60px;
+}
+
+.mac-data {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.mac-img-data{
+    text-align: center;
+}
+
+.mac-img-datah2{
+    font-size: 28px;
+    margin: 5px;
+
+}
+
+.mac-img-data h3{
+    font-size: 18px;
+    margin: 5px;
+}
+
+
+.mac-img-data p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.mac-img-data button{
+    border-radius: 25px;
+    font-size: 10px;
+    border-style: none;
+    margin: 10px;
+}
+
+.mac-img-data a{
+    text-decoration: none;
+    margin: 7px;
+    color: #0071e3;
+}
+
+.line{
+    width: 250px;
+    border: 0.1px solid rgb(223, 221, 221);
+}
+
+
+/********************/
+
+#mac-fourth{
+    margin-top: 120px;
+    width: 100%;
+}
+
+#mac-fourth-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+#mac-fourth1{
+    height: 80vh;
+    width: 100%;
+    background-color: #01012a;
+    margin: 30px 0px ;
+}
+#mac-fourth2{
+    height: 80vh;
+    background-color: #01012a;
+    margin: 30px 0px ;
+    width: 100%;
+}
+
+.four1{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    color: #fff;
+    padding: 0px 5%;
+}
+.four1 .four-content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+.four-content1 h1{
+    font-size: 40px;
+}
+.four-content1 h3{
+    font-size: 25px;
+}
+.four-content1 a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #0071e3;
+}
+.four1 .four-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.four2{
+    height: 100%;
+    width: 100%;
+    background: url(https://www.apple.com/v/mac/home/br/images/overview/skywalker-btm/btm_tile__foyxdms85eum_large.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.four-txt{
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    position: absolute;
+}
+.four-txt h2{
+    font-size: 30px;
+}
+.four-txt h1{
+    font-size: 50px;
+}
+.four-txt p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.four-txt a{
+    margin-top: 15px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #2997FF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 20px;
+}
+
+
+
+
+#mac-fifth{
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#mac-fifth-container{
+    height: 100vh;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background-image:url(https://www.apple.com/in/mac/home/images/overview/retail/accessories_tile__cybkm8f034uq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.mac-fifth-txt{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.mac-fifth-txt h2{
+    font-size: 25px;
+}
+.mac-fifth-txt h1{
+    margin: 15px;
+    font-size: 50px;
+}
+.mac-fifth-txt button{
+    border-radius: 25px;
+    border-style: none;
+}
+
+
+/******************/
+
+#mac-sixth{
+    width: 100%;
+}
+.mac-sixth-container{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sixth-container-first{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+.sixth-container-first i, .sixth-container-second i, .sixth-container-third i{
+    font-size: 40px;
+    margin: 10px;
+}
+.sixth-container-second{
+    width: 25%;
+    height: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sixth-container-third{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+}
+
+.fonts h3{
+    font-size: 25px;
+}
+.fonts p{
+    font-size: 15px;
+    margin: 5px;
+}
+.fonts a{
+    font-size: 18px;
+    color: #0071e3;
+}
+
+
+.mac-seventh-container{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: #FBFBFB;
+    justify-content: space-between;
+    position: relative;
+}
+.mac-seventh-txt{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: center;
+
+}
+.mac-seventh-txt h2{
+    font-size: 25px;
+}
+.mac-seventh-txt h1{
+    font-size: 45px;
+    margin: 15px;
+}
+
+.mac-seventh-txt a{
+    font-size: 15px;
+    color: #0071e3;
+}
+
+#adjust{
+    right: 0%;
+    position: absolute;
+}
+
+
+
+
+#mac-eight{
+    width: 90%;
+    margin: auto;
+}
+.mac-eight-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    height: 80vh;
+}
+.mac-eight-img1{
+    background-image: url(https://www.apple.com/v/mac/home/br/images/overview/get-more/business__dhhbnntkcwuq_large.jpg);
+}
+.mac-eight-img2{
+    background-image: url(https://www.apple.com/v/mac/home/br/images/overview/get-more/education__bq047y5fu7n6_large.jpg);
+}
+
+
+.mac-eight-container h1{
+    font-size: 50px;
+}
+.mac-eight-container p{
+    font-size: 25px;
+}
+
+.mac-eight-container a{
+    font-size: 25px;
+    margin: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mac-eight-container a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+
+
+footer{
+    background-color: #F5F5F7;
+}
+#foot{
+    display: flex;
+    gap: 120px;
+    margin: 0px 195px;
+    justify-content: space-around;
+}
+.footclass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+footer .footclass h5{
+    margin-top: 25px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer .footclass a{
+    margin: 4px 0px;
+    color: #787883;
+    text-decoration: none;
+    font-size: 14px;
+}
+footer .footclass a:hover{
+    text-decoration: underline;
+}
+footer #para1{
+    margin: 10px 195px 0px 195px;
+    font-size: 12px;
+    color: #787883;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #787883;
+}
+footer #para2{
+    margin: 5px 195px 0px 195px;
+    font-size: 12px;
+    color: #787883;
+}
+footer #pre{
+    margin: 50px 195px 0px 195px;
+    font-size: 14px;
+    color: #787883;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #787883;
+    word-spacing: 4px;
+    line-height: 22px;
+}
